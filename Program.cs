@@ -19,7 +19,7 @@ namespace Calculos
             double t2 = conversoes.ConverterTemperatura(conversoes.ConversaoTemperatura.FarenheitCelsius, 100);
 
             Console.WriteLine($"36º Célsius = {t1)}º Farenheit");
-            Console.WriteLine($"100º Farenheit = {t1)}º Célsius");
+            Console.WriteLine($"100º Farenheit = {t2)}º Célsius");
 
             Console.ReadKey();
         }
